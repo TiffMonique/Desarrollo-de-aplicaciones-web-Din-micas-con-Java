@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<element>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
   <servlet>
     <description></description>
-    <display-name>MetodoGet</display-name>
-    <servlet-name>MetodoGet</servlet-name>
-    <servlet-class>com.edutecno.MetodoGet</servlet-class>
+    <display-name>Calculadora</display-name>
+    <servlet-name>Calculadora</servlet-name>
+    <servlet-class>com.ecamp.Calculadora</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>MetodoGet</servlet-name>
-    <url-pattern>/metodoGet</url-pattern>
+    <servlet-name>Calculadora</servlet-name>
+    <url-pattern>/Calculadora</url-pattern>
   </servlet-mapping>
-  <display-name>RE_CUE_2_ ENVIANDO DATOS DESDE UN FORMULARIO</display-name>
+  <display-name>DRILLING_CUE1.2</display-name>
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
     <welcome-file>index.htm</welcome-file>
@@ -20,3 +21,4 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
 </web-app>
+</element>
