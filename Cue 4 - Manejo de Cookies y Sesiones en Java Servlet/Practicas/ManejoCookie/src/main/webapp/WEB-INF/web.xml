@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <element>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+
+  <servlet>
+    <description></description>
+    <display-name>RecuperacionCookies</display-name>
+    <servlet-name>RecuperacionCookies</servlet-name>
+    <servlet-class>cl.edutecno.cookies.RecuperacionCookies</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RecuperacionCookies</servlet-name>
+    <url-pattern>/RecuperacionCookies</url-pattern>
+  </servlet-mapping>
+  <display-name>ManejoCookie</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>ManejoCookie</servlet-name>
+    <servlet-class>cl.edutecno.cookies.ManejoCookie</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ManejoCookie</servlet-name>
+    <url-pattern>/ManejoCookies</url-pattern>
+  </servlet-mapping>
+</web-app>
+</element>
