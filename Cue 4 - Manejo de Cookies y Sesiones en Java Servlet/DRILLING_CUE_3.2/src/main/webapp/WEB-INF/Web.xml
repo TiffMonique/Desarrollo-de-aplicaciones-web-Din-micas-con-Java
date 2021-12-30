@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<element>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="5.0">
+  <display-name>DRILLING_CUE_3.1</display-name>
+  
+  <dependencies>
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>jstl</artifactId>
+    <version>1.2</version>
+</dependency>
+ </dependencies>
+ 
+ 
+ <servlet>
+    <description></description>
+    <display-name>Deslogueo</display-name>
+    <servlet-name>/Deslogueo/*</servlet-name>
+    <servlet-class>com.edutecno.servlets.Deslogueo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Deslogueo</servlet-name>
+    <url-pattern>/Deslogueo</url-pattern>
+  </servlet-mapping>
+  
+  <display-name>DRILLING_CUE_3.2</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>ProcesaLogin</display-name>
+    <servlet-name>ProcesaLogin</servlet-name>
+    <servlet-class>com.edutecno.servlets.ProcesaLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProcesaLogin</servlet-name>
+    <url-pattern>/ProcesaLogin/*</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>index</display-name>
+    <servlet-name>index</servlet-name>
+    <jsp-file>/index.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>index</servlet-name>
+    <url-pattern>/index</url-pattern>
+  </servlet-mapping>
+</web-app>
+</element>
