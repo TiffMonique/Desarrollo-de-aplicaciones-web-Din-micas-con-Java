@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autores>
+	<libros>
+		<autor>William</autor>
+		<titulo>El sonido y la furia</titulo>
+		<paginas>300</paginas>
+		
+	</libros>
+	<libros>
+		<autor>Oscar Wilde</autor>
+		<titulo>De Profundis</titulo>
+		<paginas>200</paginas>
+		
+	</libros>
+	
+	<libros>
+		<autor>Frank</autor>
+		<titulo>La metamorfosis</titulo>
+		<paginas>390</paginas>
+		
+	</libros>
+	
+	<libros>
+		<autor>James Joyce</autor>
+		<titulo>Eveline</titulo>
+		<paginas>459</paginas>
+		
+	</libros>
+</autores>
